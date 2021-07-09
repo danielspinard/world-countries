@@ -9,3 +9,10 @@
 .country-card .country-flag {
     padding: 13px 0px;
 }
+
+.country-card .country-flag img {
+    width: 150px;
+    border-radius: 8px;
+    display: flex;
+    margin: 0px auto;
+}
