@@ -17,6 +17,20 @@
     margin: 0px auto;
 }
 
+.country-card .country-info {
+    padding: 0px 13px;
+}
+
+.country-card .country-info h5 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.country-card .country-info p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
 .country-card:hover {
     cursor: pointer;
     transform: scale(1.025);
