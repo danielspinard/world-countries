@@ -16,6 +16,15 @@ body {
     background-color: #16151D;
 }
 
+nav {
+    margin: 35px auto 0px;
+}
+
+nav h3 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
 .countries-world {
     margin: 20px auto 0;
 }
