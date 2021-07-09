@@ -22,7 +22,7 @@ function addCardCountry(content, country) {
   }
   
   content.append(`
-    <div class="col col-3" id="country" data-country="${country.name}">
+    <div class="col col-6 country-col" id="country" data-country="${country.name}">
       <div class="country-card">
           <div class="country-flag">
               <img
