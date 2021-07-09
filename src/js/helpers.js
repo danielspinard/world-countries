@@ -1,8 +1,7 @@
 /**
  * @param {String} uri 
  * @param {String} method 
- * @param {CallableFunction} callable
- * @return {any}
+ * @param {CallableFunction} callable 
  */
 function fetchApi(uri, method = "GET", callable) {
   $.ajax({
@@ -11,4 +10,11 @@ function fetchApi(uri, method = "GET", callable) {
   }).done(function (response) {
     callable(response);
   });
+}
+
+/**
+ * @param {Element} content 
+ * @param {Object} country 
+ */
+function addCardCountry(content, country) {
 }
