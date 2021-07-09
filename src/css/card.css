@@ -16,3 +16,9 @@
     display: flex;
     margin: 0px auto;
 }
+
+.country-card:hover {
+    cursor: pointer;
+    transform: scale(1.025);
+    transition: .3s;
+}
