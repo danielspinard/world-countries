@@ -17,15 +17,24 @@ function fetchApi(uri, method = "GET", callable) {
  * @param {Object} country 
  */
 function addCardCountry(content, country) {
+  if (country.name !== country.nativeName) {
+    country.nativeName = `(${country.nativeName})`;
+  }
+  
   content.append(`
     <div class="col col-3" id="country" data-country="${country.name}">
       <div class="country-card">
           <div class="country-flag">
-              <img src="${country.flag}">
+              <img
+                alt="${country.name} flag"
+                src="${country.flag}"
+              >
           </div>
 
           <div class="country-info">
-            <h5>${country.name} (${country.nativeName})</h5>
+            <h5>
+              ${country.name + ' ' + country.nativeName}
+            </h5>
             <p>Region: ${country.region}</p>
             <p>Capital: ${country.capital}</p>
             <p>Population: ${country.population}</p>
@@ -33,4 +42,6 @@ function addCardCountry(content, country) {
       </div>
     </div>
   `);
+
+  country.nativeName = '';
 }
