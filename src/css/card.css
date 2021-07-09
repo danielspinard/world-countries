@@ -1,0 +1,7 @@
+.country-card {
+    height: 225px;
+    width: 175px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px #1a1a22;
+    background-color: #1E1D26;
+}
