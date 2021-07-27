@@ -17,7 +17,7 @@ body {
 }
 
 nav {
-    margin: 35px auto 0;
+    margin: 35px auto 45px;
 }
 
 nav h3 {
@@ -25,6 +25,27 @@ nav h3 {
     font-size: 24px;
 }
 
+nav input {
+    float: right;
+    margin: -30px auto 0;
+    padding: 10px 0px 10px 20px;
+    border-radius: 4px;
+}
+
+nav input,
+nav input::placeholder,
+nav input:hover {
+    font-size: 14px;
+    color: white;
+    outline: 0;
+    background-color: #1e1d26;
+    border: 0;
+}
+
 .countries-world {
     margin: 20px auto 0;
+}
+
+.country-col {
+    margin-bottom: 25px;
 }
