@@ -12,6 +12,12 @@ My goal is to train javascript consuming an API with jquery-ajax, the front-end 
 ## Project Preview
 This may be an outdated preview and may not represent a final version.
 
+[desktop]
+![desktop index](./.github/previews/desktop-index.png)
+
+[mobile]
+![mobile index](./.github/previews/mobile-index.png)
+
 ## Developer
 
 Daniel Monteiro - [@danielspinard](https://github.com/danielspinard)
