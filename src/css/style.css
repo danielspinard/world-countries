@@ -49,3 +49,9 @@ nav input:hover {
 .country-col {
     margin-bottom: 25px;
 }
+
+.custom-col {
+    width: 175px;
+    margin: 0 auto;
+    display: flex;
+}
