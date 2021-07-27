@@ -15,7 +15,7 @@ This may be an outdated preview and may not represent a final version.
 [desktop]
 ![desktop index](./.github/previews/desktop-index.png)
 
-[mobile]
+[responsive]
 ![mobile index](./.github/previews/mobile-index.png)
 
 ## Developer
